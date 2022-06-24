@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+
+/* body  */
+body{
+    margin-top: 2px;
+    background-color: rgb(235, 230, 230);
+    border-top: 8px solid black;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* HEADER THAT CONTAINS MY BLOG  */
+.gfg_header h1{
+    text-align: center;
+    margin:16px;
+}
+.gfg_header p{
+    text-align: center;
+}
+.gfg_span {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.gfg_grid{
+    display: flex;
+}
+
+
+/* BLOG 1 ENTRY HERE  */
+.gfg_blog_entry_one{
+    margin: 29px 16px;
+    /* border: 2px solid white; */
+    height: 492px;
+    background-color: white;
+    box-shadow: 7px 7px 12px 3px gray;
+}
+.gfg_blog_entry_one img{
+    width:100%;
+}
+.gfg_blogone_title{
+    margin-left: 10px;
+}
+.gfg_blogone_title h3{
+    padding-top: 12px;
+}
+.gfg_blogone_title h5{
+    padding: 10px 0px;
+    opacity: 0.8;
+    font-size: 18px;
+}
+.gfg_sub1{
+    opacity: 0.5;
+}
+.gfg_paraone{
+    /* BLOG 1 PARAGRAPH  */
+    width: 97%;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.gfg_foot_comment1{
+    /* FOOTER OF BLOG 1 */
+    text-align: right;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: -54px;
+    padding-right: 13px;
+}
+.gfg_tag1{
+    background-color: black;
+    color: white;
+    padding: 4px 13px;
+}
+.gfg_buttonone{
+
+    margin: 24px 0px;
+    padding: 11px;
+    background-color: white;
+    opacity: 0.8;
+    /* border: none; */
+    outline: none;
+    border: 1px solid #ded7d7;
+}
+.gfg_buttonone:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+/* HERE IT IS ABOUT CARD MY NAME */
+.gfg_card{
+    font-size: 18px;
+    margin: 29px 16px;
+    /* border: 2px solid white; */
+    background-color: white;
+    box-shadow: 7px 7px 12px 3px gray;
+}
+.gfg_menu_head{
+    margin-left: 10px;
+}
+.gfg_menu_head h4{
+    padding-top: 12px;
+}
+.gfg_menu_head p{
+    padding: 10px 0px;
+}
+
+
+/* HERE IT IS ABOUT POPULAR POST  */
+.gfg_post{
+    /* border: 2px solid white; */
+    background-color: white;
+    box-shadow: 7px 7px 12px 3px gray;
+}
+.gfg_post_head{
+
+    background-color: lightgray;
+    padding: 18px 3px;
+    font-size: 20px;
+}
+.gfg_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.gfg_list img{
+    width: 10%;
+}
+/* .gfg_list_one{
+    display: flex;
+} */
+.gfg_list_one span{
+    flex-direction: column;
+
+}
+.gfg_list_one{
+  padding: 4px 14px;
+  border: 1px solid gray;
+}
+.gfg_list_one span{
+    font-weight: bold;
+}
+.gfg_list_two span{
+    flex-direction: column;
+
+}
+.gfg_list_two{
+  padding: 4px 14px;
+  border: 1px solid gray;
+}
+.gfg_list_two span{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.gfg_list_three span{
+    flex-direction: column;
+
+}
+.gfg_list_three{
+  padding: 4px 14px;
+  border: 1px solid gray;
+}
+.gfg_list_three span{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.gfg_list_four span{
+    flex-direction: column;
+
+}
+.gfg_list_four{
+  padding: 4px 14px;
+  border: 1px solid gray;
+}
+.gfg_list_four span{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* BLOG ENTRY 2 */
+.gfg_blog_entry_two{
+    margin: 29px 16px;
+    /* border: 2px solid white; */
+    height: 492px;
+    background-color: white;
+    box-shadow: 7px 7px 12px 3px gray;
+}
+.gfg_blog_entry_two img{
+    width:100%;
+}
+.gfg_blogtwo_title{
+    margin-left: 10px;
+}
+.gfg_blogtwo_title h3{
+    padding-top: 12px;
+}
+.gfg_blogtwo_title h5{
+    padding: 10px 0px;
+    opacity: 0.8;
+    font-size: 18px;
+}
+.gfg_sub2{
+    opacity: 0.5;
+}
+.gfg_parathree{
+    width: 97%;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.gfg_foot_comment2{
+    text-align: right;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: -54px;
+    padding-right: 13px;
+}
+.gfg_tag2{
+    background-color: black;
+    margin: 6px;
+    color: white;
+    padding: 4px 13px;
+}
+.gfg_buttontwo{
+
+    margin: 24px 0px;
+    padding: 11px;
+    background-color: white;
+    opacity: 0.8;
+    /* border: none; */
+    outline: none;
+    border: 1px solid #ded7d7;
+}
+.gfg_buttontwo:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+
+/* HERE IT IS ABOUT TAGS  */
+.gfg_tags_head h4{
+
+    background-color: lightgray;
+    padding: 18px 3px;
+    font-size: 20px;
+}
+.gfg_tag_container p{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 0.5rem;
+}
+.gfg_tags{
+    margin-top: 36px;
+    /* border: 2px solid white; */
+    background-color: white;
+    height: 180px;
+    box-shadow: 7px 7px 12px 3px gray;
+}
+.gfg_tag_common{
+    background-color: rgb(233, 227, 227);
+    padding: 1px;
+    opacity: 0.8;
+}
+hr{
+    visibility: hidden;
+}
+
+
+/* HERE IT IS ABOUT FOOTER  */
+.gfg_footer{
+    height: 118px;
+    background-color: #535252;
+}
+.gfg_footer_button1{
+    padding: 8px;
+    opacity: 0.4;
+    border: none;
+    margin: 18px 10px;
+}
+.gfg_footer_button2{
+    padding: 8px;
+    border: none;
+    margin: 18px -5px;
+    background-color: black;
+    color: white;
+}
+.gfg_footer button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+}
+.gfg_footer_para{
+    color: white;
+    margin: 12px 8px;
+    opacity: 0.7;
+}
+.gfg_footer_para a{
+    color: white;
+}
+
